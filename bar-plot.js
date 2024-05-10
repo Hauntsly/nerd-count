@@ -22,7 +22,8 @@ document.addEventListener('DOMContentLoaded', function () {
         // Create the chart using the fetched data
         const chart = Highcharts.chart('bar-plot', {
             chart: {
-                type: 'bar'
+                type: 'bar',
+                styledMode: true
             },
             credits: {
                 enabled: false
