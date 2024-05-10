@@ -7,11 +7,8 @@
     <title>Nerds met count</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://code.highcharts.com/highcharts.js"></script>
-    <script>
-        function showMessage() {
-            alert("Free was too lazy to implement this, so go bother him until he updates yours");
-        }
-    </script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="smolscripts.js"> </script>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg bg-light">
@@ -26,6 +23,9 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="" onclick="showMessage()" >Update chart</a>
+              </li>
+              <li class="nav-item">
+                <button class="nav-link btn btn-link" onclick="toggleDarkMode()">Dark Mode</button>
               </li>
             </ul>
           </div>
